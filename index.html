@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- This will be updated by JavaScript -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="pageTitle">MilliyTechnology - Speak English Naturally with AI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="container">
+            <a href="#" class="nav-logo">MilliyTechnology</a>
+            <div class="nav-menu">
+                <div class="language-switcher">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="ru">Русский</option>
+                        <option value="uz">O'zbekcha</option>
+                    </select>
+                </div>
+                <a href="#contact" class="nav-contact-button" data-i18n="contactUs">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-section container">
+            <div class="hero-content">
+                <h1 class="hidden" data-i18n="heroTitle">Speak English Naturally. <br>Powered by AI.</h1>
+                <p class="hero-subtitle hidden" data-i18n="heroSubtitle">Your personal AI tutor for real-time
+                    conversation practice, instant feedback, and smart vocabulary training—all on your device, even
+                    offline.</p>
+                <div class="store-buttons hidden">
+                    <!-- TODO: Add your App Store Link -->
+                    <a href="#" class="store-button" data-i18n="appStore"><i class="fa-brands fa-apple"></i> Download on
+                        the App Store</a>
+                    <!-- TODO: Add your Google Play Link -->
+                    <a href="#" class="store-button" data-i18n="playStore"><i class="fa-brands fa-google-play"></i> Get
+                        it on Google Play</a>
+                </div>
+            </div>
+            <div class="hero-image hidden">
+                <img src="assets/app-mockup.png" alt="MilliyTechnology App Mockup">
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section id="features" class="features-section container">
+            <h2 class="section-title hidden" data-i18n="featuresTitle">The Future of Language Learning is Here</h2>
+            <div class="features-grid">
+                <div class="feature-card hidden">
+                    <i class="fa-solid fa-comments feature-icon"></i>
+                    <h3 data-i18n="feature1Title">Talk with AI, Not Just at It</h3>
+                    <p data-i18n="feature1Desc">Engage in fluid, real-time conversations. Our on-device AI understands
+                        you instantly, providing a natural practice partner 24/7.</p>
+                </div>
+                <div class="feature-card hidden">
+                    <i class="fa-solid fa-bullseye feature-icon"></i>
+                    <h3 data-i18n="feature2Title">Instant, Personalized Feedback</h3>
+                    <p data-i18n="feature2Desc">Receive immediate, actionable feedback on your pronunciation and
+                        grammar, powered by advanced LLMs, to correct mistakes on the spot.</p>
+                </div>
+                <div class="feature-card hidden">
+                    <i class="fa-solid fa-plane-departure feature-icon"></i>
+                    <h3 data-i18n="feature3Title">Learn Anywhere, Anytime</h3>
+                    <p data-i18n="feature3Desc">With a 100% offline-first architecture, your AI tutor is always
+                        available, whether you're on a plane, subway, or in a remote area.</p>
+                </div>
+                <div class="feature-card hidden">
+                    <i class="fa-solid fa-brain feature-icon"></i>
+                    <h3 data-i18n="feature4Title">Vocabulary That Sticks</h3>
+                    <p data-i18n="feature4Desc">Our smart, Anki-style spaced repetition system ensures that you remember
+                        the words you learn, building a strong and lasting vocabulary.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOUNDERS SECTION -->
+        <section id="founders" class="founders-section">
+            <div class="container">
+                <h2 class="section-title hidden" data-i18n="foundersTitle">Meet the Minds Behind the Mission</h2>
+                <div class="founders-grid">
+                    <div class="founder-card hidden">
+                        <img src="assets/founder1.jpg" alt="Azizbek Umidjonov">
+                        <h3>Azizbek Umidjonov</h3>
+                        <p class="founder-title" data-i18n="founder1Title">Founder & CTO</p>
+                        <p class="founder-quote" data-i18n="founder1Quote">"We're not just building an app; we're
+                            building a new way to learn. By putting a powerful AI tutor in everyone's pocket, we can
+                            break down the barriers to true language fluency."</p>
+                        <div class="founder-socials">
+                            <a href="https://linkedin.com/in/TyposBro" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/TyposBro" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="founder-card hidden">
+                        <img src="assets/founder2.jpg" alt="Ilhom Toshpolatov">
+                        <h3 data-i18n="founder2Name">Ilhom Toshpolatov</h3>
+                        <p class="founder-title" data-i18n="founder2Title">Founder & CEO</p>
+                        <p class="founder-quote" data-i18n="founder2Quote">"As an ESL teacher, I've seen countless
+                            students master grammar but freeze during their speaking exams. The real key to a high score
+                            isn't just knowing English; it's building the muscle memory for conversation under pressure.
+                            MilliyTechnology is the training ground for that. We provide unlimited, realistic test
+                            simulations to build the confidence and fluency needed to succeed when it matters most."</p>
+                        <div class="founder-socials">
+                            <!-- TODO: Add Ilhom's LinkedIn link -->
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <!-- TODO: Add Ilhom's Twitter/other social link -->
+                            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-new">
+        <div class="container">
+            <div class="footer-top-section" id="contact">
+                <h2 data-i18n="footerTitle">Ready to Begin Your Fluent Future?</h2>
+                <div class="store-buttons">
+                    <!-- TODO: Add your App Store Link -->
+                    <a href="#" class="store-button" data-i18n="appStoreFooter"><i class="fa-brands fa-apple"></i>
+                        Download on the App Store</a>
+                    <!-- TODO: Add your Google Play Link -->
+                    <a href="#" class="store-button" data-i18n="playStoreFooter"><i
+                            class="fa-brands fa-google-play"></i> Get it on Google Play</a>
+                </div>
+            </div>
+            <div class="footer-bottom-section">
+                <div class="footer-legal">
+                    <p class="footer-logo">MilliyTechnology</p>
+                    <p data-i18n="footerAddress">Farg'ona viloyati, Rishton tumani, 151304, Uzbekistan</p>
+                    <p>
+                        <span data-i18n="stir">Tax ID (STIR):</span> 312 223 640
+                        <span class="separator">|</span>
+                        <span>DUNS®:</span> 933905467
+                    </p>
+                </div>
+                <div class="footer-copyright">
+                    <p data-i18n="footerRights">© 2025 "MILLIY TECHNOLOGY" MCHJ. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
