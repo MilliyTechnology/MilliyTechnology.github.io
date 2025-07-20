@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       contactUs: "Contact Us",
       heroTitle: "Speak English Naturally. <br>Powered by AI.",
       heroSubtitle:
-        "Your personal AI tutor for real-time conversation practice, instant feedback, and smart vocabulary training—all on your device, even offline.",
+        "Your personal AI tutor for real-time conversation practice, instant feedback, and smart vocabulary training—all on your device.",
       appStore: "Download on the App Store",
       playStore: "Get it on Google Play",
       featuresTitle: "The Future of Language Learning is Here",
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       contactUs: "Связаться с нами",
       heroTitle: "Говорите по-английски естественно. <br>С помощью ИИ.",
       heroSubtitle:
-        "Ваш личный ИИ-репетитор для разговорной практики в реальном времени, мгновенной обратной связи и умного изучения слов — всё на вашем устройстве, даже офлайн.",
+        "Ваш личный ИИ-репетитор для разговорной практики в реальном времени, мгновенной обратной связи и умного изучения слов — всё на вашем устройстве.",
       appStore: "Загрузите в App Store",
       playStore: "Доступно в Google Play",
       featuresTitle: "Будущее изучения языков уже здесь",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       contactUs: "Bog'lanish",
       heroTitle: "Ingliz tilida tabiiy so'zlashing. <br>AI yordamida.",
       heroSubtitle:
-        "Haqiqiy vaqtda suhbat amaliyoti, tezkor fikr-mulohazalar va aqlli lug'at o'rganish uchun shaxsiy AI repetitoringiz — barchasi qurilmangizda, hatto oflayn rejimda.",
+        "Haqiqiy vaqtda suhbat amaliyoti, tezkor fikr-mulohazalar va aqlli lug'at o'rganish uchun shaxsiy AI repetitoringiz — barchasi qurilmangizda.",
       appStore: "App Store'da yuklab oling",
       playStore: "Google Play'da oling",
       featuresTitle: "Til o'rganish kelajagi shu yerda",
