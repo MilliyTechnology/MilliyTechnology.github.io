@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <!-- This links to your main stylesheet, which now only styles the landing page -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -43,9 +44,6 @@
                     conversation practice, instant feedback, and smart vocabulary training—all on your device, even
                     offline.</p>
                 <div class="store-buttons hidden">
-                    <!-- TODO: Add your App Store Link -->
-                    <!-- <a href="#" class="store-button" data-i18n="appStore"><i class="fa-brands fa-apple"></i> Download on
-                        the App Store</a> -->
                     <!-- TODO: Add your Google Play Link -->
                     <a href="#" class="store-button" data-i18n="playStore"><i class="fa-brands fa-google-play"></i> Get
                         it on Google Play</a>
@@ -106,25 +104,13 @@
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
-                    <!-- <div class="founder-card hidden"> -->
-                    <!-- <img src="assets/founder2.jpg" alt="Ilhom Toshpolatov"> -->
-                    <!-- <h3 data-i18n="founder2Name">Ilhom Toshpolatov</h3> -->
-                    <!-- <p class="founder-title" data-i18n="founder2Title">Founder & CEO</p> -->
-                    <!-- <p class="founder-quote" data-i18n="founder2Quote">"As an ESL teacher, I've seen countless -->
-                    <!-- students master grammar but freeze during their speaking exams. The real key to a high score -->
-                    <!-- isn't just knowing English; it's building the muscle memory for conversation under pressure. -->
-                    <!-- MilliyTechnology is the training ground for that. We provide unlimited, realistic test -->
-                    <!-- simulations to build the confidence and fluency needed to succeed when it matters most."</p> -->
-                    <!-- <div class="founder-socials"> -->
-                    <!-- TODO: Add Ilhom's LinkedIn link -->
-                    <!-- <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a> -->
-                    <!-- TODO: Add Ilhom's Twitter/other social link -->
-                    <!-- <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a> -->
-                    <!-- </div> -->
                 </div>
             </div>
-            </div>
         </section>
+
+        <!-- NOTE: The FAQ and Privacy sections have been removed from this page -->
+        <!-- They now exist on their own pages: faq.html and privacy.html -->
+
     </main>
 
     <footer class="footer-new">
@@ -132,9 +118,6 @@
             <div class="footer-top-section" id="contact">
                 <h2 data-i18n="footerTitle">Ready to Begin Your Fluent Future?</h2>
                 <div class="store-buttons">
-                    <!-- TODO: Add your App Store Link -->
-                    <!-- <a href="#" class="store-button" data-i18n="appStoreFooter"><i class="fa-brands fa-apple"></i>
-                        Download on the App Store</a> -->
                     <!-- TODO: Add your Google Play Link -->
                     <a href="#" class="store-button" data-i18n="playStoreFooter"><i
                             class="fa-brands fa-google-play"></i> Get it on Google Play</a>
@@ -150,6 +133,15 @@
                         <span>DUNS®:</span> 933905467
                     </p>
                 </div>
+                <div class="footer-nav">
+                    <!-- Links to sections on this page -->
+                    <a href="#features" data-i18n="footerLinkFeatures">Features</a>
+                    <a href="#contact" data-i18n="footerLinkContact">Contact</a>
+
+                    <!-- UPDATED: Links to the new, separate pages -->
+                    <a href="faq.html" data-i18n="footerLinkFaq">FAQ</a>
+                    <a href="privacy.html" data-i18n="footerLinkPrivacy">Privacy Policy</a>
+                </div>
                 <div class="footer-copyright">
                     <p data-i18n="footerRights">© 2025 "MILLIY TECHNOLOGY" MCHJ. All rights reserved.</p>
                 </div>
@@ -157,6 +149,7 @@
         </div>
     </footer>
 
+    <!-- This links to the JS file specific to the landing page -->
     <script src="js/main.js"></script>
 </body>
 

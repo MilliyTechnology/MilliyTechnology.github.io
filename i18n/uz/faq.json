@@ -1,0 +1,11 @@
+{
+  "faqTitle": "Ko'p beriladigan savollar (KBS)",
+  "faq1q": "Bu qanday platforma?",
+  "faq1a": "Bu ko'p darajali imtihon formatini taqlid qilish uchun mo'ljallangan ingliz tilida so'zlashuv amaliyoti platformasi.",
+  "faq2q": "Bu kim uchun?",
+  "faq2a": "Bu tizimli, testga o'xshash muhitda ingliz tilida so'zlashuv ko'nikmalarini yaxshilashni istagan har bir kishi uchun.",
+  "faq3q": "Ilovadan foydalanish uchun menga nima kerak?",
+  "faq3a": "Sizga zamonaviy veb-brauzer (masalan, Chrome yoki Firefox), barqaror internet aloqasi va ishlaydigan mikrofon kerak bo'ladi.",
+  "faq4q": "Mening yozuvim ishlamayapti. Nima qilishim kerak?",
+  "faq4a": "Birinchidan, veb-saytimiz uchun brauzeringizga mikrofon ruxsatlarini berganingizga ishonch hosil qiling. Ikkinchidan, u standart kiritish qurilmasi sifatida tanlanganligiga ishonch hosil qilish uchun tizimingizning mikrofon sozlamalarini tekshiring."
+}

@@ -1,0 +1,22 @@
+{
+  "privacyTitle": "Maxfiylik siyosati",
+  "privacy_last_updated": "Oxirgi yangilanish: 2025-yil 19-iyun",
+
+  "privacy_s1_title": "1. Biz qanday ma'lumotlarni yig'amiz va saqlaymiz?",
+  "privacy_s1_subtitle1": "Hisob qaydnomasi ma'lumotlari:",
+  "privacy_s1_p1": "Biz xizmatlarimizni taqdim etish uchun yetarli bo'lgan minimal ma'lumotni saqlaymiz, bu siz tanlagan autentifikatsiya usuliga bog'liq. Bu sizning Google hisobingiz bilan bog'liq elektron pochta manzili yoki Telegram foydalanuvchi identifikatoringiz bo'lishi mumkin.",
+  "privacy_s1_subtitle2": "Xizmat ma'lumotlari (Suhbat tarixi va lug'at boyligi):",
+  "privacy_s1_p2": "Odatiy bo'lib, sizning suhbatlaringiz tarixi va lug'at boyligidagi yutuqlaringiz faqat qurilmangizning mahalliy xotirasida saqlanadi. Agar siz obuna bo'lib, bulutli sinxronizatsiya funksiyasini aniq tanlamasangiz, biz ushbu ma'lumotlarni serverlarimizda saqlamaymiz va ularga kira olmaymiz.",
+  "privacy_s1_subtitle3": "To'lov va obuna ma'lumotlari:",
+  "privacy_s1_p3": "Biz to'lovlarni amalga oshirish uchun Google Play Store Billing va Click kabi uchinchi tomon xizmatlaridan foydalanamiz. Siz ularning maxfiylik siyosatlariga bo'ysunasiz. Biz sizning kredit kartangiz ma'lumotlarini saqlamaymiz yoki ularga kira olmaymiz. Biz faqat to'lov provayderlarimiz bilan xaridingizni tasdiqlaymiz va joriy obuna darajangizni va uning tugash sanasini saqlaymiz.",
+
+  "privacy_s2_title": "2. Ma'lumotlaringizdan qanday foydalanamiz?",
+  "privacy_s2_p1": "Biz sizning ma'lumotlaringizdan quyidagi maqsadlarda foydalanamiz:",
+  "privacy_s2_subtitle1": "Xizmatlarni taqdim etish va qo'llab-quvvatlash uchun:",
+  "privacy_s2_p2": "Hisob qaydnomangiz ma'lumotlari sizni autentifikatsiya qilish va obunangizni boshqarish uchun ishlatiladi. Bulutli sinxronizatsiyani tanlagan pullik foydalanuvchilar uchun biz Xizmat ma'lumotlarini xavfsiz serverlarimizda faqat qurilmalaringiz bo'ylab yutuqlaringizni sinxronlashtirish maqsadida saqlaymiz.",
+  "privacy_s2_subtitle2": "Tizimga xizmat ko'rsatish uchun:",
+  "privacy_s2_p3": "Biz nosozliklarni tuzatish va tizimga texnik xizmat ko'rsatish uchun ma'lumotlar bazamizda saqlanadigan anonimlashtirilgan va umumlashtirilgan Xizmat ma'lumotlarini tekshirishimiz mumkin. Bu ma'lumotlar hech qachon sizning shaxsingiz bilan bog'lanmaydi. Biz hech qanday holatda sizning shaxsiy yoki Xizmat ma'lumotlaringizni uchinchi shaxslarga sotmaymiz.",
+
+  "privacy_s3_title": "3. Ma'lumotlaringizni qanday himoya qilamiz?",
+  "privacy_s3_p1": "Bizning asosiy xavfsizlik choramiz - bu maxfiylikni loyihalash. Asosiy Xizmat ma'lumotlaringizni sukut bo'yicha qurilmangizda saqlash orqali biz saqlaydigan ma'lumotlarni minimallashtiramiz. Siz bulutimizga sinxronlashtirishni tanlagan ma'lumotlar uchun biz uni himoya qilish uchun sanoat standartidagi shifrlash va xavfsizlik choralaridan foydalanamiz. Biroq, hech bir tizim 100% xavfsiz emas va Xizmatlarimizga ma'lumotlarni uzatish o'z xavfingiz ostida amalga oshiriladi."
+}

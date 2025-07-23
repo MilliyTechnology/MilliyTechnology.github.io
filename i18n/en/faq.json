@@ -1,0 +1,11 @@
+{
+  "faqTitle": "Frequently Asked Questions (FAQ)",
+  "faq1q": "What is this platform?",
+  "faq1a": "This is an English speaking practice platform designed to simulate a multilevel exam format.",
+  "faq2q": "Who is this for?",
+  "faq2a": "It's for anyone looking to improve their English speaking skills in a structured, test-like environment.",
+  "faq3q": "What do I need to use the app?",
+  "faq3a": "You need a modern web browser (like Chrome or Firefox), a stable internet connection, and a working microphone.",
+  "faq4q": "My recording is not working. What should I do?",
+  "faq4a": "First, ensure you have given microphone permissions to your browser for our website. Second, check your system's microphone settings to make sure it is selected as the default input device."
+}

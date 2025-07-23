@@ -1,0 +1,22 @@
+{
+  "privacyTitle": "Privacy Policy",
+  "privacy_last_updated": "Last updated: June 19, 2025",
+
+  "privacy_s1_title": "1. What Information Do We Collect and Store?",
+  "privacy_s1_subtitle1": "Account Information:",
+  "privacy_s1_p1": "We store the minimum information sufficient to provide our services, which depends on your choice of authentication. This can be the email account associated with your Google account or your Telegram user ID.",
+  "privacy_s1_subtitle2": "Service Data (Chat & Wordbank History):",
+  "privacy_s1_p2": "By default, your chat history and wordbank progress are stored exclusively on your device's local storage. We do not store or have access to this data on our servers unless you subscribe and explicitly opt-in to the cloud sync feature.",
+  "privacy_s1_subtitle3": "Payment and Subscription Information:",
+  "privacy_s1_p3": "We use third-party services such as Google Play Store Billing and Click for processing payments. You are subject to their respective privacy policies. We do not store or access any of your credit card information. We only verify your purchase with our payment providers and store your current subscription tier and its expiration date.",
+
+  "privacy_s2_title": "2. How Do We Use Your Information?",
+  "privacy_s2_p1": "We use your information for the following purposes:",
+  "privacy_s2_subtitle1": "To Provide and Maintain Services:",
+  "privacy_s2_p2": "Your account information is used to authenticate you and manage your subscription. For paid users who opt-in to cloud sync, we store Service Data on our secure servers for the sole purpose of syncing your progress across your devices.",
+  "privacy_s2_subtitle2": "For System Maintenance:",
+  "privacy_s2_p3": "We may inspect anonymized and aggregated Service Data stored in our databases for debugging and system maintenance. This data is never linked to your personal identity. We under no circumstance sell your personal or Service Data to any third parties.",
+
+  "privacy_s3_title": "3. How Do We Keep Your Information Safe?",
+  "privacy_s3_p1": "Our primary security measure is privacy by design. By storing your core Service Data on your device by default, we minimize the data we hold. For data that you choose to sync to our cloud, we use industry-standard encryption and security measures to protect it. However, no system is 100% secure, and transmission of data to our Services is at your own risk."
+}
