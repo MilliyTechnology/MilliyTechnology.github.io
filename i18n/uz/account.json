@@ -1,0 +1,17 @@
+{
+  "accountPageTitle": "Hisobni boshqarish - MilliyTechnology",
+  "accountTitle": "Hisobni boshqarish",
+  "loginTitle": "Hisobingizni boshqarish uchun kiring",
+  "loginTelegram": "Telegram bilan kirish",
+  "telegramInstruction": "Telegram ilovasi orqali tizimga kirganingizdan so'ng, ushbu sahifa avtomatik ravishda yangilanadi.",
+  "loggedInTitle": "Siz tizimga kirdingiz.",
+  "deleteWarning": "Bu yerda siz o'z hisobingizni va u bilan bog'liq barcha ma'lumotlarni butunlay o'chirib tashlashingiz mumkin. Bu amalni bekor qilib bo'lmaydi.",
+  "deleteBtnText": "Mening hisobimni o'chirish",
+  "logoutBtnText": "Chiqish",
+  "deleteConfirm": "Haqiqatan ham hisobingizni butunlay o'chirib tashlamoqchimisiz? Bu amalni qaytarib bo'lmaydi.",
+  "loginSuccess": "Tizimga muvaffaqiyatli kirildi!",
+  "logoutSuccess": "Siz tizimdan muvaffaqiyatli chiqdingiz.",
+  "deleteSuccess": "Hisobingiz muvaffaqiyatli o'chirildi.",
+  "errorNotLoggedIn": "Siz tizimga kirmagansiz yoki sessiyangiz tugagan. Iltimos, qayta kiring.",
+  "errorGeneral": "Kutilmagan xatolik yuz berdi. Iltimos, qaytadan urining."
+}

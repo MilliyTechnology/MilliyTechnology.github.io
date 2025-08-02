@@ -89,6 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         <a href="privacy.html" data-i18n="footerLinkPrivacy">${
                           t.footerLinkPrivacy || ""
                         }</a>
+                        <a href="account.html" data-i18n="footerLinkAccount">${
+                          t.footerLinkAccount || ""
+                        }</a>
                         <a href="index.html#contact" data-i18n="footerLinkContact">${
                           t.footerLinkContact || ""
                         }</a>

@@ -1,0 +1,17 @@
+{
+  "accountPageTitle": "Account Management - MilliyTechnology",
+  "accountTitle": "Account Management",
+  "loginTitle": "Log In To Manage Your Account",
+  "loginTelegram": "Login with Telegram",
+  "telegramInstruction": "After logging in via the Telegram app, this page will update automatically.",
+  "loggedInTitle": "You are logged in.",
+  "deleteWarning": "You can permanently delete your account and all associated data. This action cannot be undone.",
+  "deleteBtnText": "Delete My Account",
+  "logoutBtnText": "Log Out",
+  "deleteConfirm": "Are you sure you want to permanently delete your account? This action is irreversible.",
+  "loginSuccess": "Login successful!",
+  "logoutSuccess": "You have been successfully logged out.",
+  "deleteSuccess": "Your account has been successfully deleted.",
+  "errorNotLoggedIn": "You are not logged in or your session has expired. Please log in again.",
+  "errorGeneral": "An unexpected error occurred. Please try again."
+}
