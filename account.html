@@ -117,21 +117,37 @@
                         <p style="font-size: 0.8rem; color: var(--text-color-secondary);"
                             data-i18n="telegramInstruction">After logging in via the Telegram app, this page will update
                             automatically.</p>
+                        <!-- Reviewer Section -->
+                        <div id="reviewer-section" style="margin-top: 2rem;">
+                            <a href="#" id="reviewer-link"
+                                style="font-size: 0.9rem; color: var(--text-color-secondary); text-decoration: underline;"
+                                data-i18n="reviewerPrompt">Are you a store reviewer?</a>
+                            <form id="reviewer-form" class="hidden" style="margin-top: 1rem;">
+                                <input type="email" id="reviewer-email" placeholder="Enter reviewer username" required
+                                    style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--text-color); margin-bottom: 1rem;">
+                                <button type="submit" class="login-button"
+                                    style="background-color: #3fb950; color: white; width: 100%; border: none; cursor: pointer;"
+                                    data-i18n="reviewerLoginBtn">Login as Reviewer</button>
+                            </form>
+                        </div>
+
                     </div>
                 </div>
+            </div>
+            </div>
 
-                <!-- Logged-in View -->
-                <div id="loggedin-view" class="hidden">
-                    <h3 data-i18n="loggedInTitle">You are logged in.</h3>
-                    <p data-i18n="deleteWarning">You can permanently delete your account and all associated data. This
-                        action cannot be undone.</p>
-                    <button id="delete-account-btn" class="delete-button" data-i18n="deleteBtnText">Delete My
-                        Account</button>
-                    <button id="logout-btn" class="nav-contact-button" style="margin-top: 1rem;"
-                        data-i18n="logoutBtnText">Log Out</button>
-                </div>
+            <!-- Logged-in View -->
+            <div id="loggedin-view" class="hidden">
+                <h3 data-i18n="loggedInTitle">You are logged in.</h3>
+                <p data-i18n="deleteWarning">You can permanently delete your account and all associated data. This
+                    action cannot be undone.</p>
+                <button id="delete-account-btn" class="delete-button" data-i18n="deleteBtnText">Delete My
+                    Account</button>
+                <button id="logout-btn" class="nav-contact-button" style="margin-top: 1rem;"
+                    data-i18n="logoutBtnText">Log Out</button>
+            </div>
 
-                <div id="status-message"></div>
+            <div id="status-message"></div>
             </div>
         </section>
     </main>

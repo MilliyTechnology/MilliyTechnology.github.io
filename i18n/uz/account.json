@@ -13,5 +13,7 @@
   "logoutSuccess": "Siz tizimdan muvaffaqiyatli chiqdingiz.",
   "deleteSuccess": "Hisobingiz muvaffaqiyatli o'chirildi.",
   "errorNotLoggedIn": "Siz tizimga kirmagansiz yoki sessiyangiz tugagan. Iltimos, qayta kiring.",
-  "errorGeneral": "Kutilmagan xatolik yuz berdi. Iltimos, qaytadan urining."
+  "errorGeneral": "Kutilmagan xatolik yuz berdi. Iltimos, qaytadan urining.",
+  "reviewerPrompt": "Siz do'kon tekshiruvchimisiz?",
+  "reviewerLoginBtn": "Tekshiruvchi sifatida kirish"
 }

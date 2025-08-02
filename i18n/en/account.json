@@ -13,5 +13,7 @@
   "logoutSuccess": "You have been successfully logged out.",
   "deleteSuccess": "Your account has been successfully deleted.",
   "errorNotLoggedIn": "You are not logged in or your session has expired. Please log in again.",
-  "errorGeneral": "An unexpected error occurred. Please try again."
+  "errorGeneral": "An unexpected error occurred. Please try again.",
+  "reviewerPrompt": "Are you a store reviewer?",
+  "reviewerLoginBtn": "Login as Reviewer"
 }

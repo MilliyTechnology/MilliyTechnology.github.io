@@ -1,3 +1,4 @@
+// js/account.js
 document.addEventListener("DOMContentLoaded", function () {
   // --- CONFIGURATION ---
   const API_BASE_URL = "https://typosbro-multilevel-api.milliytechnology.workers.dev";
@@ -12,6 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const deleteBtn = document.getElementById("delete-account-btn");
   const logoutBtn = document.getElementById("logout-btn");
   const statusMessageEl = document.getElementById("status-message");
+  const reviewerLink = document.getElementById("reviewer-link");
+  const reviewerForm = document.getElementById("reviewer-form");
+  const reviewerEmailInput = document.getElementById("reviewer-email");
 
   let translations = {};
 
@@ -89,6 +93,29 @@ document.addEventListener("DOMContentLoaded", function () {
       setStatusMessage("loginSuccess", false, "Login successful!");
     } catch (error) {
       console.error("Google Sign-In Error:", error);
+      setStatusMessage("errorGeneral", true, error.message);
+    }
+  }
+
+  async function handleReviewerLogin(event) {
+    event.preventDefault();
+    const email = reviewerEmailInput.value;
+    if (!email) return;
+
+    try {
+      const res = await fetch(`${API_BASE_URL}/api/auth/reviewer-login`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.message || "Reviewer login failed.");
+
+      localStorage.setItem("jwt_token", data.token);
+      updateViewState(data.token);
+      setStatusMessage("loginSuccess", false, "Login successful!");
+    } catch (error) {
+      console.error("Reviewer Login Error:", error);
       setStatusMessage("errorGeneral", true, error.message);
     }
   }
@@ -188,6 +215,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- EVENT LISTENERS ---
   deleteBtn.addEventListener("click", handleDeleteAccount);
   logoutBtn.addEventListener("click", handleLogout);
+  reviewerLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    reviewerForm.classList.toggle("hidden");
+  });
+  reviewerForm.addEventListener("submit", handleReviewerLogin);
 
   // --- INITIALIZE ---
   initializePage();
