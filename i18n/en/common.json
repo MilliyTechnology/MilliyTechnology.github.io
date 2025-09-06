@@ -2,6 +2,7 @@
   "pageTitle": "MilliyTechnology - Speak English Naturally with AI",
   "faqPageTitle": "FAQ - MilliyTechnology",
   "privacyPageTitle": "Privacy Policy - MilliyTechnology",
+  "termsPageTitle": "Terms & Conditions - MilliyTechnology",
   "contactUs": "Contact Us",
   "footerAddress": "Rishton district, Fergana region, 151304, Uzbekistan",
   "stir": "Tax ID (STIR):",
@@ -9,6 +10,7 @@
   "footerLinkFeatures": "Features",
   "footerLinkFaq": "FAQ",
   "footerLinkPrivacy": "Privacy Policy",
+  "footerLinkTerms": "Terms & Conditions",
   "footerLinkContact": "Contact",
   "footerLinkAccount": "Account"
 }

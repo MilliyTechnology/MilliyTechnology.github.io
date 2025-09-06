@@ -203,6 +203,8 @@ document.addEventListener("DOMContentLoaded", function () {
       t.footerLinkFaq || ""
     }</a><a href="privacy.html" data-i18n="footerLinkPrivacy">${
       t.footerLinkPrivacy || ""
+    }</a><a href="terms.html" data-i18n="footerLinkTerms">${
+      t.footerLinkTerms || ""
     }</a><a href="account.html" data-i18n="footerLinkAccount">${
       t.footerLinkAccount || ""
     }</a><a href="index.html#contact" data-i18n="footerLinkContact">${

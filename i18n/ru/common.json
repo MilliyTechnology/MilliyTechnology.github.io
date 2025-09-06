@@ -2,6 +2,7 @@
   "pageTitle": "MilliyTechnology - Говорите по-английски естественно с ИИ",
   "faqPageTitle": "ЧаВо - MilliyTechnology",
   "privacyPageTitle": "Политика конфиденциальности - MilliyTechnology",
+  "termsPageTitle": "Условия использования - MilliyTechnology",
   "contactUs": "Связаться с нами",
   "footerAddress": "Риштанский район, Ферганская область, 151304, Узбекистан",
   "stir": "ИНН (STIR):",
@@ -9,6 +10,7 @@
   "footerLinkFeatures": "Возможности",
   "footerLinkFaq": "ЧаВо",
   "footerLinkPrivacy": "Политика конфиденциальности",
+  "footerLinkTerms": "Условия использования",
   "footerLinkContact": "Контакты",
   "footerLinkAccount": "Аккаунт"
 }

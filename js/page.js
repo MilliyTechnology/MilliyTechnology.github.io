@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
         buildFaq(translations);
       } else if (pageId === "privacy") {
         buildPrivacy(translations);
+      } else if (pageId === "terms") {
+        buildTerms(translations);
       }
 
       document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -89,6 +91,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         <a href="privacy.html" data-i18n="footerLinkPrivacy">${
                           t.footerLinkPrivacy || ""
                         }</a>
+                        <a href="terms.html" data-i18n="footerLinkTerms">${
+                          t.footerLinkTerms || ""
+                        }</a>
                         <a href="account.html" data-i18n="footerLinkAccount">${
                           t.footerLinkAccount || ""
                         }</a>
@@ -142,16 +147,95 @@ document.addEventListener("DOMContentLoaded", function () {
     const container = document.querySelector(".privacy-content");
     container.innerHTML = `
             <p class="last-updated">${t.privacy_last_updated || ""}</p>
+
+            <h3>${t.privacy_entity_title || ""}</h3>
+            <p>${t.privacy_entity_p1 || ""}</p>
+
             <h3>${t.privacy_s1_title || ""}</h3>
             <p><strong>${t.privacy_s1_subtitle1 || ""}</strong> ${t.privacy_s1_p1 || ""}</p>
             <p><strong>${t.privacy_s1_subtitle2 || ""}</strong> ${t.privacy_s1_p2 || ""}</p>
             <p><strong>${t.privacy_s1_subtitle3 || ""}</strong> ${t.privacy_s1_p3 || ""}</p>
+            <p><strong>${t.privacy_s1_subtitle4 || ""}</strong> ${t.privacy_s1_p4 || ""}</p>
+
             <h3>${t.privacy_s2_title || ""}</h3>
             <p>${t.privacy_s2_p1 || ""}</p>
             <p><strong>${t.privacy_s2_subtitle1 || ""}</strong> ${t.privacy_s2_p2 || ""}</p>
             <p><strong>${t.privacy_s2_subtitle2 || ""}</strong> ${t.privacy_s2_p3 || ""}</p>
+            <p><strong>${t.privacy_s2_subtitle3 || ""}</strong> ${t.privacy_s2_p4 || ""}</p>
+
             <h3>${t.privacy_s3_title || ""}</h3>
             <p>${t.privacy_s3_p1 || ""}</p>
+
+            <h3>${t.privacy_s4_title || ""}</h3>
+            <p>${t.privacy_s4_p1 || ""}</p>
+            <ul>
+              ${[t.privacy_s4_li1, t.privacy_s4_li2, t.privacy_s4_li3]
+                .filter(Boolean)
+                .map((x) => `<li>${x}</li>`)
+                .join("")}
+            </ul>
+
+            <h3>${t.privacy_s5_title || ""}</h3>
+            <p>${t.privacy_s5_p1 || ""}</p>
+            <ul>
+              ${[t.privacy_s5_li1, t.privacy_s5_li2]
+                .filter(Boolean)
+                .map((x) => `<li>${x}</li>`)
+                .join("")}
+            </ul>
+
+            <h3>${t.privacy_s6_title || ""}</h3>
+            <p>${t.privacy_s6_p1 || ""}</p>
+
+            <h3>${t.privacy_s7_title || ""}</h3>
+            <p>${t.privacy_s7_p1 || ""}</p>
+            <ul>
+              ${[t.privacy_s7_li1, t.privacy_s7_li2, t.privacy_s7_li3]
+                .filter(Boolean)
+                .map((x) => `<li>${x}</li>`)
+                .join("")}
+            </ul>
+
+            <h3>${t.privacy_s8_title || ""}</h3>
+            <p>${t.privacy_s8_p1 || ""}</p>
+
+            <h3>${t.privacy_s9_title || ""}</h3>
+            <p>${t.privacy_s9_p1 || ""}</p>
+
+            <h3>${t.privacy_s10_title || ""}</h3>
+            <p>${t.privacy_s10_p1 || ""}</p>
+        `;
+  }
+
+  function buildTerms(t) {
+    const container = document.querySelector(".terms-content");
+    if (!container) return;
+    container.innerHTML = `
+            <p class="last-updated">${t.terms_last_updated || ""}</p>
+            <h3>${t.terms_intro_title || ""}</h3>
+            <p>${t.terms_intro_p1 || ""}</p>
+            <h3>${t.terms_license_title || ""}</h3>
+            <p>${t.terms_license_p1 || ""}</p>
+            <ul>
+              ${[t.terms_license_li1, t.terms_license_li2, t.terms_license_li3]
+                .filter(Boolean)
+                .map((x) => `<li>${x}</li>`)
+                .join("")}
+            </ul>
+            <h3>${t.terms_subs_title || ""}</h3>
+            <p>${t.terms_subs_p1 || ""}</p>
+            <h3>${t.terms_user_title || ""}</h3>
+            <p>${t.terms_user_p1 || ""}</p>
+            <h3>${t.terms_term_title || ""}</h3>
+            <p>${t.terms_term_p1 || ""}</p>
+            <h3>${t.terms_disclaimer_title || ""}</h3>
+            <p>${t.terms_disclaimer_p1 || ""}</p>
+            <h3>${t.terms_liab_title || ""}</h3>
+            <p>${t.terms_liab_p1 || ""}</p>
+            <h3>${t.terms_law_title || ""}</h3>
+            <p>${t.terms_law_p1 || ""}</p>
+            <h3>${t.terms_contact_title || ""}</h3>
+            <p>${t.terms_contact_p1 || ""}</p>
         `;
   }
 

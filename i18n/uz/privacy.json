@@ -1,22 +1,58 @@
 {
   "privacyTitle": "Maxfiylik siyosati",
-  "privacy_last_updated": "Oxirgi yangilanish: 2025-yil 19-iyun",
+  "privacy_last_updated": "Oxirgi yangilanish: 2025-yil 6-sentabr",
+
+  "privacy_entity_title": "Biz kimmiz va ushbu siyosat nimalarni qamrab oladi",
+  "privacy_entity_p1": "Ushbu Maxfiylik siyosati O'zbekistonda ro'yxatdan o'tgan \"MILLIY TECHNOLOGY\" MCHJ (Dasturchi) tomonidan nashr etilgan \"Spiko: Multilevel Speaking\" (paket: org.milliytechnology.spiko) mobil ilovasiga (Ilova) tatbiq etiladi (STIR: 312 223 640; DUNS®: 933905467). Bu yerda biz Ilova va tegishli xizmatlardan foydalanganda ma'lumotlarni qanday olishimiz, yig'ishimiz, ishlatishimiz va ulashishimiz tushuntiriladi.",
 
   "privacy_s1_title": "1. Biz qanday ma'lumotlarni yig'amiz va saqlaymiz?",
   "privacy_s1_subtitle1": "Hisob qaydnomasi ma'lumotlari:",
-  "privacy_s1_p1": "Biz xizmatlarimizni taqdim etish uchun yetarli bo'lgan minimal ma'lumotni saqlaymiz, bu siz tanlagan autentifikatsiya usuliga bog'liq. Bu sizning Google hisobingiz bilan bog'liq elektron pochta manzili yoki Telegram foydalanuvchi identifikatoringiz bo'lishi mumkin.",
+  "privacy_s1_p1": "Biz xizmatlarimizni taqdim etish uchun yetarli bo'lgan minimal ma'lumotni saqlaymiz, bu siz tanlagan autentifikatsiya usuliga bog'liq. Bu Google hisobingizdagi elektron pochta manzili yoki Telegram foydalanuvchi identifikatoringiz bo'lishi mumkin.",
   "privacy_s1_subtitle2": "Xizmat ma'lumotlari (Suhbat tarixi va lug'at boyligi):",
   "privacy_s1_p2": "Odatiy bo'lib, sizning suhbatlaringiz tarixi va lug'at boyligidagi yutuqlaringiz faqat qurilmangizning mahalliy xotirasida saqlanadi. Agar siz obuna bo'lib, bulutli sinxronizatsiya funksiyasini aniq tanlamasangiz, biz ushbu ma'lumotlarni serverlarimizda saqlamaymiz va ularga kira olmaymiz.",
   "privacy_s1_subtitle3": "To'lov va obuna ma'lumotlari:",
   "privacy_s1_p3": "Biz to'lovlarni amalga oshirish uchun Google Play Store Billing va Click kabi uchinchi tomon xizmatlaridan foydalanamiz. Siz ularning maxfiylik siyosatlariga bo'ysunasiz. Biz sizning kredit kartangiz ma'lumotlarini saqlamaymiz yoki ularga kira olmaymiz. Biz faqat to'lov provayderlarimiz bilan xaridingizni tasdiqlaymiz va joriy obuna darajangizni va uning tugash sanasini saqlaymiz.",
+  "privacy_s1_subtitle4": "Tahlil va nosozliklar haqida hisobotlar:",
+  "privacy_s1_p4": "Biz funksiyalardan foydalanishni tushunish va barqarorlikni yaxshilash uchun Google Firebase xizmatlaridan (Analytics va Crashlytics) foydalanamiz. Firebase qurilma va ilova identifikatorlari hamda voqealarni yig'ishi mumkin. Mavjud bo'lsa, Firebase Analytics qurilmaning Reklama identifikatoridan foydalanishi mumkin. Siz Reklama ID-ni qurilma sozlamalarida qayta o'rnatishingiz yoki cheklashingiz mumkin.",
 
   "privacy_s2_title": "2. Ma'lumotlaringizdan qanday foydalanamiz?",
   "privacy_s2_p1": "Biz sizning ma'lumotlaringizdan quyidagi maqsadlarda foydalanamiz:",
   "privacy_s2_subtitle1": "Xizmatlarni taqdim etish va qo'llab-quvvatlash uchun:",
   "privacy_s2_p2": "Hisob qaydnomangiz ma'lumotlari sizni autentifikatsiya qilish va obunangizni boshqarish uchun ishlatiladi. Bulutli sinxronizatsiyani tanlagan pullik foydalanuvchilar uchun biz Xizmat ma'lumotlarini xavfsiz serverlarimizda faqat qurilmalaringiz bo'ylab yutuqlaringizni sinxronlashtirish maqsadida saqlaymiz.",
   "privacy_s2_subtitle2": "Tizimga xizmat ko'rsatish uchun:",
-  "privacy_s2_p3": "Biz nosozliklarni tuzatish va tizimga texnik xizmat ko'rsatish uchun ma'lumotlar bazamizda saqlanadigan anonimlashtirilgan va umumlashtirilgan Xizmat ma'lumotlarini tekshirishimiz mumkin. Bu ma'lumotlar hech qachon sizning shaxsingiz bilan bog'lanmaydi. Biz hech qanday holatda sizning shaxsiy yoki Xizmat ma'lumotlaringizni uchinchi shaxslarga sotmaymiz.",
+  "privacy_s2_p3": "Biz nosozliklarni tuzatish va tizimga texnik xizmat ko'rsatish uchun ma'lumotlar bazamizda saqlanadigan anonimlashtirilgan va umumlashtirilgan Xizmat ma'lumotlarini tekshirishimiz mumkin. Bu ma'lumotlar hech qachon sizning shaxsingiz bilan bog'lanmaydi. Biz sizning shaxsiy yoki Xizmat ma'lumotlaringizni uchinchi shaxslarga sotmaymiz.",
+  "privacy_s2_subtitle3": "Tahlil va nosozliklar haqida hisobotlar:",
+  "privacy_s2_p4": "Biz funksiyalardan qanday foydalanilayotganini tushunish uchun Firebase Analytics va nosozliklarni aniqlash uchun Firebase Crashlytics'dan foydalanamiz. Bu Ilovani ishonchli saqlash va tajribangizni yaxshilashga yordam beradi.",
 
   "privacy_s3_title": "3. Ma'lumotlaringizni qanday himoya qilamiz?",
-  "privacy_s3_p1": "Bizning asosiy xavfsizlik choramiz - bu maxfiylikni loyihalash. Asosiy Xizmat ma'lumotlaringizni sukut bo'yicha qurilmangizda saqlash orqali biz saqlaydigan ma'lumotlarni minimallashtiramiz. Siz bulutimizga sinxronlashtirishni tanlagan ma'lumotlar uchun biz uni himoya qilish uchun sanoat standartidagi shifrlash va xavfsizlik choralaridan foydalanamiz. Biroq, hech bir tizim 100% xavfsiz emas va Xizmatlarimizga ma'lumotlarni uzatish o'z xavfingiz ostida amalga oshiriladi."
+  "privacy_s3_p1": "Bizning asosiy xavfsizlik choramiz — maxfiylikni loyihalash. Asosiy Xizmat ma'lumotlaringizni odatda qurilmangizda saqlash orqali biz yig'iladigan ma'lumotlarni minimallashtiramiz. Siz bulutga sinxronlashni tanlagan ma'lumotlar uchun sanoat standartidagi shifrlash va xavfsizlik choralaridan foydalanamiz. Ma'lumotlar HTTPS orqali uzatiladi. Biroq, hech bir tizim 100% xavfsiz emas.",
+
+  "privacy_s4_title": "4. Ma'lumotlarni ulashish",
+  "privacy_s4_p1": "Biz sizning shaxsiy yoki sezgir ma'lumotlaringizni sotmaymiz. Ma'lumotlar faqat quyidagi holatlarda ulashilishi mumkin:",
+  "privacy_s4_li1": "Bizning nomimizdan ma'lumotlarni qayta ishlovchi xizmat ko'rsatuvchilar (masalan, Firebase, to'lov provayderlari) bilan, mos himoya shartlari asosida.",
+  "privacy_s4_li2": "Qonuniy sabablarga ko'ra (qonunlarga rioya qilish, davlat organlarining so'rovlari yoki huquqlarni himoya qilish).",
+  "privacy_s4_li3": "Biznes o'tkazmalari bo'yicha tegishli xabarnoma bilan (masalan, qo'shilish yoki sotib olish).",
+
+  "privacy_s5_title": "5. Saqlash va o'chirish",
+  "privacy_s5_p1": "Hisob ma'lumotlari faqat hisobingiz faol bo'lganida yoki Xizmatlarni taqdim etish uchun zarur bo'lganda saqlanadi. Siz istalgan vaqtda o'chirishni so'rashingiz mumkin:",
+  "privacy_s5_li1": "Ilovada: Ilova → Hisob → Hisobni o'chirish.",
+  "privacy_s5_li2": "Veb: https://milliytechnology.org/account sahifasiga tashrif buyurib, o'chirishni so'rang.",
+
+  "privacy_s6_title": "6. Bolalarning maxfiyligi",
+  "privacy_s6_p1": "Ilova ota-ona roziligi talab qilinadigan yoshdan kichik bolalar uchun mo'ljallanmagan. Biz tegishli roziliksiz bolalarning shaxsiy ma'lumotlarini ataylab yig'maymiz.",
+
+  "privacy_s7_title": "7. Sizning huquqlaringiz va tanlovlaringiz",
+  "privacy_s7_p1": "Amaldagi qonunchilikka muvofiq, siz shaxsiy ma'lumotlaringizga kirish, tuzatish yoki o'chirish huquqiga ega bo'lishingiz mumkin. Siz qurilma sozlamalarini o'zgartirib (masalan, Reklama ID'ni cheklash) yoki ilova sozlamalaridan foydalanib tahlildan voz kechishingiz mumkin.",
+  "privacy_s7_li1": "Qurilma sozlamalarida Reklama ID'ni qayta o'rnating yoki cheklang.",
+  "privacy_s7_li2": "Ilova ichidagi parametrlar orqali ma'lumotlarni boshqaring (mavjud bo'lsa).",
+  "privacy_s7_li3": "Boshqa so'rovlar uchun quyidagi elektron pochta orqali bog'laning.",
+
+  "privacy_s8_title": "8. Xalqaro ma'lumot uzatish",
+  "privacy_s8_p1": "Ma'lumotlar sizning mamlakatingizdan tashqarida joylashgan serverlarda qayta ishlanishi mumkin. Kerak bo'lganda, biz ma'lumotlaringizni himoya qilish uchun mos choralarni ko'ramiz.",
+
+  "privacy_s9_title": "9. Aloqa",
+  "privacy_s9_p1": "Maxfiylik bo'yicha savollar yoki so'rovlar uchun: admin@milliytechnology.org. Manzil: Farg'ona viloyati, Rishton tumani, 151304, O'zbekiston.",
+
+  "privacy_s10_title": "10. Ushbu siyosatdagi o'zgarishlar",
+  "privacy_s10_p1": "Biz vaqti-vaqti bilan ushbu Maxfiylik siyosatini yangilashimiz mumkin. Yangilangan versiya ushbu sahifada e'lon qilinadi va yuqoridagi \"Oxirgi yangilanish\" sanasi yangilanadi."
 }

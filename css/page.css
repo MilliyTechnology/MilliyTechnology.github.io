@@ -103,6 +103,27 @@ body {
   background-color: var(--border-color);
 }
 
+/* --- Header responsiveness for small screens --- */
+@media (max-width: 768px) {
+  .header nav {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .nav-logo {
+    font-size: 1.25rem;
+  }
+  .nav-menu {
+    gap: 0.75rem;
+  }
+  #language-select {
+    font-size: 0.95rem;
+  }
+  .nav-contact-button {
+    padding: 8px 14px;
+    font-size: 0.95rem;
+  }
+}
+
 /*==================== PAGE CONTENT LAYOUT ====================*/
 .page-section {
   padding: 80px 0;
@@ -178,6 +199,34 @@ body {
   margin-bottom: 1rem;
 }
 
+/*==================== TERMS STYLES (match privacy) ====================*/
+.terms-content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-color-secondary);
+  line-height: 1.7;
+}
+.terms-content .last-updated {
+  text-align: center;
+  color: var(--text-color-secondary);
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+.terms-content h3 {
+  color: var(--text-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+.terms-content p {
+  margin-bottom: 1rem;
+}
+.terms-content ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
 /*==================== FOOTER (COPIED & MODIFIED) ====================*/
 .footer-new {
   background-color: var(--bg-color);
@@ -239,5 +288,7 @@ body {
   }
   .footer-nav {
     margin: 20px 0;
+    flex-wrap: wrap;
+    row-gap: 10px;
   }
 }
