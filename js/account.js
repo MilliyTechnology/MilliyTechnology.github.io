@@ -1,7 +1,7 @@
 // js/account.js
 document.addEventListener("DOMContentLoaded", function () {
   // --- CONFIGURATION ---
-  const API_BASE_URL = "https://typosbro-multilevel-api.milliytechnology.workers.dev";
+  const API_BASE_URL = "https://api.milliytechnology.org";
   const GOOGLE_CLIENT_ID =
     "118718851522-o03snn4pl8tpm2m2pogi67c2t9s8vb84.apps.googleusercontent.com";
 
