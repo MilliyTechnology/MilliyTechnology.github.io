@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Spiko!</title>
+
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="css/page.css">
+
+    <!-- Page-specific styles -->
+    <style>
+        .join-container {
+            max-width: 550px;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .join-container h3 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .join-container p {
+            color: var(--text-color-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .code-display {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            background-color: var(--bg-color);
+            border: 1px dashed var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 2rem 0;
+        }
+
+        #referral-code {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: var(--text-color);
+        }
+
+        .copy-button {
+            background: none;
+            border: 1px solid var(--border-color);
+            color: var(--text-color-secondary);
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .copy-button:hover {
+            background-color: var(--border-color);
+            color: var(--text-color);
+        }
+
+        .store-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #fff;
+            color: #000;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+            width: 100%;
+        }
+
+        .store-button:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header will be populated by js/page.js -->
+    <header class="header"></header>
+
+    <main>
+        <section id="join" class="page-section container">
+            <div class="join-container">
+                <h3>Welcome to Spiko!</h3>
+                <p>Your friend has invited you. Copy the referral code below and enter it in the app after you sign up
+                    to receive your reward.</p>
+
+                <div class="code-display">
+                    <span id="referral-code">LOADING...</span>
+                    <button id="copy-btn" class="copy-button">
+                        <i class="fa-regular fa-copy"></i> Copy
+                    </button>
+                </div>
+
+                <a id="play-store-link" href="https://play.google.com/store/apps/details?id=org.milliytechnology.spiko"
+                    target="_blank" class="store-button">
+                    <i class="fa-brands fa-google-play"></i> Get it on Google Play
+                </a>
+
+                <p style="font-size: 0.8rem; margin-top: 1.5rem;">After installing, open the app, sign up, and go to
+                    Profile > Refer a Friend > Enter Code.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer will be populated by js/page.js -->
+    <footer class="footer-new"></footer>
+
+    <!-- This page can reuse the generic page.js for header/footer/i18n -->
+    <script src="js/page.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const codeEl = document.getElementById('referral-code');
+            const copyBtn = document.getElementById('copy-btn');
+            const playStoreLink = document.getElementById('play-store-link');
+
+            const params = new URLSearchParams(window.location.search);
+            const refCode = params.get('ref');
+
+            if (refCode) {
+                codeEl.textContent = refCode;
+            } else {
+                codeEl.textContent = 'NO CODE';
+                copyBtn.disabled = true;
+            }
+
+            copyBtn.addEventListener('click', () => {
+                if (refCode) {
+                    navigator.clipboard.writeText(refCode).then(() => {
+                        copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+                        setTimeout(() => {
+                            copyBtn.innerHTML = '<i class="fa-regular fa-copy"></i> Copy';
+                        }, 2000);
+                    }).catch(err => {
+                        console.error('Failed to copy code: ', err);
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
