@@ -4,34 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terms and Conditions for using Spiko: Multilevel Speaking app.">
     <title data-i18n="termsPageTitle">Terms & Conditions - MilliyTechnology</title>
 
-    <!-- Fonts and Icons -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Shared stylesheet for secondary pages -->
+    <!-- Styles -->
     <link rel="stylesheet" href="css/page.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
 </head>
 
 <body>
 
-    <!-- Header populated by JS -->
+    <!-- Header (Populated by js/page.js) -->
     <header class="header"></header>
 
     <main>
+        <!-- The ID "terms" is essential for page.js to load the correct JSON content -->
         <section id="terms" class="page-section container">
             <h2 class="section-title" data-i18n="termsTitle">Terms & Conditions</h2>
-            <div class="terms-content"></div>
+
+            <!-- This container is populated by js/page.js -->
+            <div class="terms-content">
+                <!-- Fallback content while loading -->
+                <div style="text-align: center; color: var(--text-color-secondary);">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i> Loading...
+                </div>
+            </div>
         </section>
     </main>
 
-    <!-- Footer populated by JS -->
+    <!-- Footer (Populated by js/page.js) -->
     <footer class="footer-new"></footer>
 
-    <!-- Shared page JS -->
+    <!-- Logic -->
     <script src="js/page.js"></script>
 </body>
 

@@ -4,37 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently Asked Questions about Spiko app.">
     <title data-i18n="faqPageTitle">FAQ - MilliyTechnology</title>
 
-    <!-- Fonts and Icons -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Link to the new, shared stylesheet for secondary pages -->
+    <!-- Styles -->
     <link rel="stylesheet" href="css/page.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
 </head>
 
 <body>
 
-    <!-- This header will be populated by JavaScript -->
+    <!-- Header (Populated by js/page.js) -->
     <header class="header"></header>
 
     <main>
-        <!-- The ID "faq" is crucial for the JS to know which content to load -->
+        <!-- The ID "faq" is essential for page.js to load the correct JSON content -->
         <section id="faq" class="page-section container">
             <h2 class="section-title" data-i18n="faqTitle">Frequently Asked Questions</h2>
 
-            <!-- This container will be filled with FAQ items by JavaScript -->
-            <div class="faq-container"></div>
+            <!-- This container is populated by js/page.js -->
+            <div class="faq-container">
+                <!-- Fallback content while loading -->
+                <div style="text-align: center; color: var(--text-color-secondary);">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i> Loading...
+                </div>
+            </div>
         </section>
     </main>
 
-    <!-- This footer will be populated by JavaScript -->
+    <!-- Footer (Populated by js/page.js) -->
     <footer class="footer-new"></footer>
 
-    <!-- Link to the shared JavaScript for secondary pages -->
+    <!-- Logic -->
     <script src="js/page.js"></script>
 </body>
 

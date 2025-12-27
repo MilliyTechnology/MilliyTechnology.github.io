@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Shared Styles -->
-    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/page.css"> <!-- Updated link -->
 
     <!-- Page-specific styles -->
     <style>
@@ -23,12 +23,17 @@
             padding: 2rem;
             background-color: var(--card-color);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
+            border-radius: 12px;
+            /* More rounded */
             text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            /* Added subtle shadow */
         }
 
         .account-container h3 {
             margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+            /* Larger heading */
         }
 
         .login-methods .login-button {
@@ -39,15 +44,21 @@
             width: 100%;
             padding: 12px;
             margin-bottom: 1rem;
-            border-radius: 6px;
+            border-radius: 8px;
+            /* More rounded buttons */
             text-decoration: none;
             font-weight: 500;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
         .login-button.telegram {
             background-color: #2AABEE;
             color: white;
+        }
+
+        .login-button.telegram:hover {
+            background-color: #1E90D4;
+            /* Darker blue on hover */
         }
 
         #google-signin-btn {
@@ -57,23 +68,29 @@
         .logged-in-view p {
             margin-bottom: 1.5rem;
             color: var(--text-color-secondary);
+            line-height: 1.6;
+            /* Better readability */
         }
 
         .delete-button {
             cursor: pointer;
             background-color: #da3633;
+            /* Red delete button */
             color: white;
             border: none;
             padding: 12px 20px;
-            border-radius: 6px;
+            border-radius: 8px;
+            /* More rounded */
             font-weight: 500;
             width: 100%;
             font-family: var(--font-family);
             font-size: 1rem;
+            transition: background-color 0.3s;
         }
 
         .delete-button:hover {
             background-color: #b92b27;
+            /* Darker red on hover */
         }
 
         .hidden {
@@ -84,14 +101,55 @@
             margin-top: 1.5rem;
             font-weight: 500;
             min-height: 1.2em;
+            font-size: 1rem;
+            /* Standard font size */
         }
 
         #status-message.success {
             color: #3fb950;
+            /* Green */
         }
 
         #status-message.error {
             color: #f85149;
+            /* Red */
+        }
+
+        /* Styling for Reviewer Form */
+        #reviewer-form input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            /* More rounded */
+            border: 1px solid var(--border-color);
+            background-color: var(--card-color);
+            /* Match card background */
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            font-family: var(--font-family);
+            font-size: 1rem;
+        }
+
+        #reviewer-form input[type="email"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            /* Highlight on focus */
+            box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.3);
+        }
+
+        #reviewer-section {
+            margin-top: 2rem;
+        }
+
+        #reviewer-link {
+            font-size: 0.9rem;
+            color: var(--text-color-secondary);
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+
+        #reviewer-link:hover {
+            color: var(--primary-color);
         }
     </style>
 </head>
@@ -118,45 +176,37 @@
                             data-i18n="telegramInstruction">After logging in via the Telegram app, this page will update
                             automatically.</p>
                         <!-- Reviewer Section -->
-                        <div id="reviewer-section" style="margin-top: 2rem;">
-                            <a href="#" id="reviewer-link"
-                                style="font-size: 0.9rem; color: var(--text-color-secondary); text-decoration: underline;"
-                                data-i18n="reviewerPrompt">Are you a store reviewer?</a>
-                            <form id="reviewer-form" class="hidden" style="margin-top: 1rem;">
-                                <input type="email" id="reviewer-email" placeholder="Enter reviewer username" required
-                                    style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--text-color); margin-bottom: 1rem;">
+                        <div id="reviewer-section">
+                            <a href="#" id="reviewer-link" data-i18n="reviewerPrompt">Are you a store reviewer?</a>
+                            <form id="reviewer-form" class="hidden">
+                                <input type="email" id="reviewer-email" placeholder="Enter reviewer username"
+                                    required />
                                 <button type="submit" class="login-button"
-                                    style="background-color: #3fb950; color: white; width: 100%; border: none; cursor: pointer;"
+                                    style="background-color: #3fb950; color: white; border: none; cursor: pointer;"
                                     data-i18n="reviewerLoginBtn">Login as Reviewer</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
-            </div>
-            </div>
 
-            <!-- Logged-in View -->
-            <div id="loggedin-view" class="hidden">
-                <h3 data-i18n="loggedInTitle">You are logged in.</h3>
-                <p data-i18n="deleteWarning">You can permanently delete your account and all associated data. This
-                    action cannot be undone.</p>
-                <button id="delete-account-btn" class="delete-button" data-i18n="deleteBtnText">Delete My
-                    Account</button>
-                <button id="logout-btn" class="nav-contact-button" style="margin-top: 1rem;"
-                    data-i18n="logoutBtnText">Log Out</button>
+                <!-- Logged-in View -->
+                <div id="loggedin-view" class="hidden">
+                    <h3 data-i18n="loggedInTitle">You are logged in.</h3>
+                    <p data-i18n="deleteWarning">You can permanently delete your account and all associated data. This
+                        action cannot be undone.</p>
+                    <button id="delete-account-btn" class="delete-button" data-i18n="deleteBtnText">Delete My
+                        Account</button>
+                    <button id="logout-btn" class="nav-contact-button" style="margin-top: 1rem;"
+                        data-i18n="logoutBtnText">Log Out</button>
+                </div>
             </div>
-
             <div id="status-message"></div>
-            </div>
         </section>
     </main>
 
     <!-- Footer Populated by JS -->
     <footer class="footer-new"></footer>
 
-    <!-- Google Identity Services -->
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <!-- Page-specific JS -->
     <script src="js/account.js"></script>
 </body>

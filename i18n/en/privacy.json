@@ -1,6 +1,6 @@
 {
   "privacyTitle": "Privacy Policy",
-  "privacy_last_updated": "Last updated: September 6, 2025",
+  "privacy_last_updated": "Last updated: December 27, 2025",
 
   "privacy_entity_title": "Who We Are and What This Policy Covers",
   "privacy_entity_p1": "This Privacy Policy applies to the mobile application \"Spiko: Multilevel Speaking\" (package: org.milliytechnology.spiko) (the App) published by \"MILLIY TECHNOLOGY\" MCHJ (the Developer), registered in Uzbekistan (Tax ID/STIR: 312 223 640; DUNS®: 933905467). It explains how we access, collect, use, and share data when you use the App and our related services.",
@@ -14,6 +14,8 @@
   "privacy_s1_p3": "We use third-party services such as Google Play Store Billing and Click for processing payments. You are subject to their respective privacy policies. We do not store or access any of your credit card information. We only verify your purchase with our payment providers and store your current subscription tier and its expiration date.",
   "privacy_s1_subtitle4": "Analytics and Crash Reports:",
   "privacy_s1_p4": "We use Google Firebase services (including Analytics and Crashlytics) to understand app usage and improve stability. Firebase may collect device and app identifiers and events. Where available, Firebase Analytics may use the device's Advertising ID. You can reset or limit the Advertising ID in your device settings.",
+  "privacy_s1_subtitle5": "Device or Other IDs:",
+  "privacy_s1_p5": "We may collect device and app identifiers. This data is used for app functionality (like push notifications via Firebase Cloud Messaging) and for marketing purposes (e.g., ad network analytics via Yandex Mobile Ads SDK). You can manage ad personalization settings through your device's advertising ID settings.",
 
   "privacy_s2_title": "2. How Do We Use Your Information?",
   "privacy_s2_p1": "We use your information for the following purposes:",
@@ -22,33 +24,35 @@
   "privacy_s2_subtitle2": "For System Maintenance:",
   "privacy_s2_p3": "We may inspect anonymized and aggregated Service Data stored in our databases for debugging and system maintenance. This data is never linked to your personal identity. We do not sell your personal or Service Data to any third parties.",
   "privacy_s2_subtitle3": "Analytics and Crash Reporting:",
-  "privacy_s2_p4": "We use Firebase Analytics to understand how features are used and Firebase Crashlytics to diagnose crashes. This helps us keep the App reliable and improve your experience.",
+  "privacy_s2_p4": "We use Firebase Analytics to understand feature usage and Firebase Crashlytics to diagnose crashes, helping us improve app stability and user experience.",
+  "privacy_s2_subtitle4": "Advertising and Marketing:",
+  "privacy_s2_p5": "We utilize the Yandex Mobile Ads SDK to display advertisements. This may involve the use of device identifiers to serve personalized ads or measure ad performance. You can manage ad preferences in your device settings.",
 
   "privacy_s3_title": "3. How Do We Keep Your Information Safe?",
-  "privacy_s3_p1": "Our primary security measure is privacy by design. By storing your core Service Data on your device by default, we minimize the data we hold. For data that you choose to sync to our cloud, we use industry-standard encryption and security measures to protect it. Data is transmitted over HTTPS. However, no system is 100% secure, and transmission of data to our Services is at your own risk.",
+  "privacy_s3_p1": "Our primary security measure is privacy by design. By storing your core Service Data on your device by default, we minimize the data we hold. For data that you choose to sync to our cloud, we use industry-standard encryption and security measures. Data is transmitted over HTTPS. However, no system is 100% secure, and transmission of data to our Services is at your own risk.",
 
   "privacy_s4_title": "4. Sharing of Information",
   "privacy_s4_p1": "We do not sell your personal or sensitive user data. We may share data only in these cases:",
-  "privacy_s4_li1": "Service providers processing data on our behalf (e.g., Firebase, payment processors) under appropriate data protection terms.",
+  "privacy_s4_li1": "Service providers processing data on our behalf (e.g., Firebase, Yandex Ads, payment processors) under appropriate data protection terms.",
   "privacy_s4_li2": "Legal reasons (to comply with law, valid governmental requests, or to protect rights).",
   "privacy_s4_li3": "Business transfers with legally adequate notice (e.g., merger or acquisition).",
 
   "privacy_s5_title": "5. Data Retention and Deletion",
   "privacy_s5_p1": "We retain account data only while you have an active account or as needed to provide the Services. You can request deletion at any time:",
-  "privacy_s5_li1": "In-app: open the App → Account → Delete My Account.",
+  "privacy_s5_li1": "In-app: navigate to Settings → Account → Delete My Account.",
   "privacy_s5_li2": "Web: visit the Account page at https://milliytechnology.org/account and request deletion.",
 
   "privacy_s6_title": "6. Children's Privacy",
   "privacy_s6_p1": "The App is not directed to children under the age where parental consent is required by local law. We do not knowingly collect personal data from children without appropriate consent.",
 
   "privacy_s7_title": "7. Your Rights and Choices",
-  "privacy_s7_p1": "Subject to applicable law, you may have the right to access, correct, or delete your personal data. You can also opt out of analytics by adjusting your device settings (e.g., limit Advertising ID) or app settings where provided.",
-  "privacy_s7_li1": "Reset or limit Advertising ID in device settings.",
+  "privacy_s7_p1": "Subject to applicable law, you may have the right to access, correct, or delete your personal data. You can also manage ad personalization settings through your device's advertising ID settings or app settings where provided.",
+  "privacy_s7_li1": "Manage Advertising ID settings in your device's privacy settings.",
   "privacy_s7_li2": "Use in-app options to manage data where available.",
   "privacy_s7_li3": "Contact us for other requests using the email below.",
 
   "privacy_s8_title": "8. International Data Transfers",
-  "privacy_s8_p1": "We may process data on servers located outside your country. Where required, we implement appropriate safeguards to protect your information.",
+  "privacy_s8_p1": "We may process data on servers located outside your country, including in the USA and Russia for services like Yandex Ads and Firebase. Where required, we implement appropriate safeguards to protect your information.",
 
   "privacy_s9_title": "9. Contact",
   "privacy_s9_p1": "For privacy questions or requests, contact: admin@milliytechnology.org or by mail: Rishton district, Fergana region, 151304, Uzbekistan.",
